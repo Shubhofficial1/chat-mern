@@ -1,0 +1,28 @@
+.message {
+  padding: 5px;
+  margin: 0px 20px;
+  /* background-color: #242c37; */
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.user {
+  color: #a8dadc;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding-right: 5px;
+}
+
+.user:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding-left: 8px;
+}

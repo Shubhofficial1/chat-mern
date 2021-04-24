@@ -1,0 +1,72 @@
+.app {
+  background-color: #0b0e11;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 360px;
+  background-color: #151a21;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow-y: scroll;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+
+/* .chat::-webkit-scrollbar {
+  display: none;
+} */
+/* width */
+.chat::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.chat::-webkit-scrollbar-track {
+  background: #151a21;
+}
+
+/* Handle */
+.chat::-webkit-scrollbar-thumb {
+  background: #242c37;
+  border-radius: 10px;
+}
+
+.submitForm {
+  position: absolute;
+  bottom: 10px;
+  margin: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #151a21;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.form__input {
+  width: 245px;
+  height: 41px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #242c37;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
